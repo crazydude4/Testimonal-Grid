@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600&display=swap");
+body {
+  margin: auto;
+  background-color: hsl(210, 46%, 95%);
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+
+.d2 {
+  width: 20%;
+  background-color: hsl(217, 19%, 35%);
+  margin-bottom: 3%;
+  border-radius: 20px;
+  padding: 3%;
+  height: 36vh;
+}
+
+.d3 {
+  width: 20%;
+  background-color: white;
+  margin-right: 5%;
+  border-radius: 20px;
+  padding: 3%;
+  height: 36vh;
+}
+
+.d4 {
+  width: 55%;
+  background-color: hsl(219, 29%, 14%);
+  border-radius: 20px;
+  padding: 3%;
+  height: 36vh;
+}
+
+.second {
+  width: 20%;
+  background-color: white;
+  border-radius: 20px;
+  padding: 3%;
+}
+
+.a {
+  color: white;
+}
+
+.b {
+  color: black;
+}
+
+.c {
+  color: white;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.d {
+  color: black;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.first {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.d1 {
+  background-color: hsl(263, 55%, 52%);
+  width: 55%;
+  margin-right: 5%;
+  margin-bottom: 3%;
+  background-image: url("bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position-x: 80%;
+  background-position-y: 0%;
+  border-radius: 20px;
+  padding: 3%;
+  height: 36vh;
+}
+
+.daniel {
+  display: flex;
+}
+.daniel h3 {
+  color: white;
+}
+
+.daniel img {
+  border-radius: 50%;
+  border: 5px solid hsl(263, 68%, 69%);
+  margin-right: 2%;
+}
+
+.daniel p {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+article .para {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 13px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.d2 img {
+  border-radius: 50%;
+  margin-right: 2%;
+}
+
+.joe {
+  display: flex;
+}
+
+.joe p {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.jean {
+  display: flex;
+}
+
+.d3 img {
+  border-radius: 50%;
+  margin-right: 2%;
+}
+
+.ara {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 13px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.jean p {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.patrick {
+  display: flex;
+}
+
+.patrick p {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.d4 img {
+  border-radius: 50%;
+  margin-right: 2%;
+  border: 5px solid hsl(263, 68%, 69%);
+}
+
+.kira {
+  display: flex;
+}
+
+.kira img {
+  border-radius: 50%;
+  margin-right: 2%;
+}
+
+.kira p {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.mob {
+  display: none;
+}
+
+@media only screen and (max-width: 375px) {
+  .container {
+    display: block;
+    width: 100%;
+  }
+  .first {
+    display: block;
+    width: 100%;
+    padding: auto;
+  }
+  .d1 {
+    width: 80%;
+    margin: auto;
+    height: auto;
+    margin-bottom: 5%;
+    margin-top: 8%;
+  }
+  .d2 {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 5%;
+  }
+  .d3 {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 5%;
+  }
+  .d4 {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 5%;
+  }
+  .second {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 8%;
+  }
+  .desk {
+    display: none;
+  }
+  .mob {
+    display: block;
+  }
+}/*# sourceMappingURL=main.css.map */
